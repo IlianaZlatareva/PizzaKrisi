@@ -1,0 +1,26 @@
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer p{
+  float: left;
+  width: 25%;
+  padding: 14px 16px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
+footer::after{
+  content: "";
+  clear: both;
+  display: block;
+}

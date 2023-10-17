@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PizzaKrisi">
+    <title>PizzaKrisi</title>
+    <link rel="icon" href="../images/pizza-g1a284bdf5_640.jpg">
+    <!-- Link for css files -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main_menu.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    
+    <link rel="stylesheet" href="../styles/style_selected_product.css">
+    <link rel="stylesheet" href="../styles/main_home.css">
+    <!-- Fonts for Logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <!-- Fonts for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <a href="https://www.facebook.com/" class="fa fa-facebook" title="Facebook link"></a>
+        <div class="logo_block"><a href="../index.html" class="logo" title="PizzaKrisi">PizzaKrisi</a>
+            <p>Вкусна пица всеки ден</p></div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Начало</a></li>
+                    <li><a href="../pages/aboutus.html">За нас</a></li>
+                    <li class="dropdown"><a href="#" class="dropbtn">Меню</a>
+                        <div class="dropdown-content">
+                            <a href="../pages/menu_pizza.html">Пици</a>
+                            <a href="../pages/menu_salad.html">Салати</a>
+                            <a href="../pages/menu_dessert.html">Десерти</a>
+                        </div>
+                    </li>
+                    <li><a href="../pages/contacts.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="product_content">
+                <div class="product_selected_img">
+                    <img src="../images/pexels-ash-376464.jpg" title="Име на продукт" alt="Име на продукт">
+                </div>
+                
+                <div class="product_selected_info">
+                    <h3 class="nameProduct" title="Име на продукта">Име на продукта</h3>
+                    <div class="product_price"><div class="price" title="10.00 лв.">10.00 лв.</div>
+                    <div class="quantity_nav">
+                        <div class="quantity_button quantity_up">+</div>
+                        <div class="quantity">
+                            <input type="number" name="count" class="product_special" min="1" max="22" step="1" value="1">
+                        </div>
+                        <div class="quantity_button quantity_down">-</div>
+                    </div>
+                    <div class="button"><button class="add_cart" title="Добави в кошницата"><a href="../pages/basket.html">Добави</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <p>Описание на продукта</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Copyright</p>
+        <p>Адрес</p>
+        <p>+359875466854</p>
+        <p><a href="https://www.facebook.com/" target="_blank" title="Facebook link">Facebook</a></p>
+    </footer>
+</body>
+</html>

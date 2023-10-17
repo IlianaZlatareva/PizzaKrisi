@@ -1,0 +1,73 @@
+.name_Form_Contacts{
+    text-align: center;
+}
+
+input{
+    width: 230px;
+    height: 25px;
+    margin: 5px;
+    
+}
+
+input:hover{
+    background-color: rgb(204, 0, 255);
+}
+
+.textarea{
+    width: 250px;
+    min-height: 50px;
+}
+
+.comment{
+    margin-top: 10px;
+    
+}
+
+.form_Contacts{
+    margin: 0 auto;
+    width: 50%;
+    border: 5px solid purple;
+    background-color: rgb(171, 168, 171);
+}
+
+.btnForm{
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 100px;
+    transition: all 0.5s;
+    padding: 14px 16px;
+    margin: 5px;
+}
+
+.btnForm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btnForm span:after {
+    content: '\27AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btnForm:hover span {
+    padding-right: 25px;
+}
+
+.btnForm:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+label{
+    margin: 5px;
+    color: white;
+}

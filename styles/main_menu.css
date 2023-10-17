@@ -1,0 +1,22 @@
+.head_Pizza, .head_Dessert, .head_Salad, .head, .head_map{
+  text-align: center;
+}
+
+.products_Pizza, .products_Dessert, .products_Salad{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product_Pizza, .product_Dessert, .product_Salad{
+  float: left;
+  margin: 5px;
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+.products_Pizza::after, .products_Dessert::after, .products_Salad::after{
+  content: "";
+  clear: both;
+  display: block;
+}

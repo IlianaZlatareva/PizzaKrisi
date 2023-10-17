@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  position: relative;
+}
+
+body {
+  background-color:rgb(255, 255, 255);
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Podkova', serif;
+  border-bottom: 10px solid purple;
+}
+
+main{
+  position: relative;
+  margin-bottom: 52px;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  position: relative;
+}

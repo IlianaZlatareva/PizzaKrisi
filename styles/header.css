@@ -1,0 +1,110 @@
+header{
+  position: relative;
+  height: 150px;
+  border-color: green;
+}
+
+.logo{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: purple;
+  font-size: 2em;
+  font-family: 'Alice', serif;
+  font-style: italic;
+}
+
+.logo, .logo_block, nav li a, .dropbtn, .dropdown-content a{
+  text-align: center;
+}
+
+/* Navigation Header Menu */
+nav{
+  position: fixed;
+  top: 90px;
+  z-index: 1;
+  border: 5px solid purple;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6f7173;
+}
+
+nav li, nav div {
+  float: left;
+  
+}
+
+nav li::after, nav div::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+/* Navigation Header Submenu */
+nav li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 150px;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(200, 39, 179);
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(221, 40, 203, 0.199);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: blueviolet;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Font Awesome Facebook Icon */
+.fa {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background:purple;
+  color: white;
+}
